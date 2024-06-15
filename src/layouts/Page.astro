@@ -9,14 +9,14 @@ const { title } = Astro.props;
         <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
         <link
             rel="alternate" type="application/rss+xml"
-            title="mudkip's blog" href="/rss.xml"
+            title="Luis' blog" href="/rss.xml"
         />
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <meta name="theme-color" content="#C6A0F6">
         <meta property="og:title" content={title} />
-        <meta property="og:url" content="https://mudkip.dev" />
+        <meta property="og:url" content="https://lu15.dev" />
     </head>
     <body>
         <h1>{title}</h1>
@@ -24,6 +24,5 @@ const { title } = Astro.props;
         <main>
             <slot />
         </main>
-        <script is:inline type="text/javascript" src="/oneko.js"></script>
     </body>
 </html>
